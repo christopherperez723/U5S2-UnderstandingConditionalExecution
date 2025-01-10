@@ -6,7 +6,7 @@ public class ComputeFare {
     public static int compute (int age){
         int response = 0;
         /* Put your code in between these comments : Top */
-
+        //age = 16;
 
         /* Put your code in between these comments : Bottom */
 

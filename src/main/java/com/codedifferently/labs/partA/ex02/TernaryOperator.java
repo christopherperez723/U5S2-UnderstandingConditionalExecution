@@ -13,7 +13,8 @@ public class TernaryOperator {
         response += ("After if stmt, x = " + x);
 
         return response;
-
+        //y / x < 3 ? x += y: x *= y;
+        //return response;
         // Use a ternary operator to perform the same logic as above.
     }
 
