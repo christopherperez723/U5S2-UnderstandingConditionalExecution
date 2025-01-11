@@ -10,10 +10,15 @@ public class TernaryOperator {
         } else {
             x *= y;
         }
+
+        if (y / x < 3) {
+            x += y;
+        }else {x *= y;}
         response += ("After if stmt, x = " + x);
 
+
         return response;
-        //y / x < 3 ? x += y: x *= y;
+
         //return response;
         // Use a ternary operator to perform the same logic as above.
     }
