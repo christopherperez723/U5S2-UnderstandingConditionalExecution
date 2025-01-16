@@ -6,11 +6,13 @@ public class ComputeFare {
     public static int compute (int age){
         int response = 0;
         /* Put your code in between these comments : Top */
-        //age = 16;
-        //if (age<11){ fare=3$
-        // }else if(age>11&&age<65){fare=5$
-        // }else{fare=3$}
-        /* Put your code in between these comments : Bottom */
+        age = 16;
+        //int fare;
+        if (age<11){
+         response=3; }else if(age>11&&age<65){
+         response=5;}else{response=3;};
+
+        //* Put your code in between these comments : Bottom */
 
 
 
