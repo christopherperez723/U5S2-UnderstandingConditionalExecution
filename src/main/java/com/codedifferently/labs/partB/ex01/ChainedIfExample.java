@@ -14,7 +14,8 @@ public class ChainedIfExample {
         } else {
             tax = 0.05 * (income - (25000 - 15000));
             tax += 0.10 * (income - 25000);
-            //else 
+            //else his tax will be ether 0.05 * (income -(25000 - 15000))
+            //or it will be 0.10 * ()
         }
         response += income + tax;
 
