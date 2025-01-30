@@ -6,7 +6,7 @@ public class CheckGrades {
 
     public static String checkGrades() {
         String response = "Math, Science, Geography, English, Java";
-        //if (Math === 80 || Science === 80 || Geography === 80){
+        //if (Math === 80 || Science === 80 || Geography === 80 || English === 80){
         // return String = ""What was your grade" + 80";
         // }else 
 
