@@ -8,10 +8,13 @@ public class Ternary {
       String x = "1";
       String y = "";
       String question = x.equals("1") ? "Yes":"No";
-      //response += (x = 19 && y = 90);
-        //String question = x.equals("20") ? "Yes":"No";  
-
-
+      response += (y += 90);
+        question = y.equals("90") ? "Yes" : "No";
+      response += (x += 19);
+      question = x.equals("20") ? "Yes" : "No";
+      response += (y += -29);
+      System.out.println("value of y is " + y);
+      
         return response;
 
     }
