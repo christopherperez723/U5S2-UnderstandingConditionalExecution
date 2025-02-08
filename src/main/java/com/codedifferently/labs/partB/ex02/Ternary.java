@@ -14,7 +14,7 @@ public class Ternary {
       question = x.equals("20") ? "Yes" : "No";
       response += (y += -29);
       System.out.println("value of y is " + y);
-      
+      System.out.println("value of x is " + x);
         return response;
 
     }
