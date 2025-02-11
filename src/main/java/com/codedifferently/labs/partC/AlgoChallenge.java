@@ -9,7 +9,11 @@ public class AlgoChallenge {
     containE("Heelele") --> false
      */
 
+
     public static Boolean containE(String str) {
+        String response = "";
+        String question = containE().equals("3") ? "Yes":"No";
+        response = String.valueOf(containE() = true);
 
         return null;
     }
