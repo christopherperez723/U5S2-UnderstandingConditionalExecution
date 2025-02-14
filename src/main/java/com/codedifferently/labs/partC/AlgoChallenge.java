@@ -11,10 +11,25 @@ public class AlgoChallenge {
 
 
     public static Boolean containE(String str) {
-        String response = "";
-        String question = containE().equals("3") ? "Yes":"No";
-        response = String.valueOf(containE() = true);
+        //String response = "";
+        //String question = containE().equals("3") ? "Yes":"No";
+        //response = String.valueOf(containE() = true);
 
+        //if (3 >= containE()) {
+            //return false;
+        //} else {
+            //return true;
+        //}
+
+        String target = "e";
+        Boolean find = str.contains(target);
+        if (find) {
+            System.out.println("string contains" + target);
+        }else {
+            find = false;
+            System.out.println("String dose not contain e" + target);
+        }
+        
         return null;
     }
 
