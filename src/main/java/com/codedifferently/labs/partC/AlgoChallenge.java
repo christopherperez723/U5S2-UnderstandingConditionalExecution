@@ -40,6 +40,14 @@ public class AlgoChallenge {
      */
 
     public static String everyOther(String str, int n) {
+        String targets = String.valueOf(n);
+        Boolean find = str.contains(targets);
+        if (find) {
+            System.out.println("string contains" + targets);
+        }else {
+            find = false;
+            System.out.println("String dose not contain " + targets);
+        }
 
         return null;
     }
