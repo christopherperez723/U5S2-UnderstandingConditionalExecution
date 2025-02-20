@@ -44,6 +44,7 @@ public class AlgoChallenge {
         Boolean find = str.contains(targets);
         if (find) {
             System.out.println("string contains" + targets);
+            String result = " "+ targets;
         }else {
             find = false;
             System.out.println("String dose not contain " + targets);
