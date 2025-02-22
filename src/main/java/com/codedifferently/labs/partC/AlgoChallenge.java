@@ -49,7 +49,6 @@ public class AlgoChallenge {
             find = false;
             System.out.println("String dose not contain " + targets);
         }
-
         return null;
     }
 
