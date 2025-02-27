@@ -29,8 +29,6 @@ public class AlgoChallenge {
      You will be provided a non-empty string and a number N. To create a new string, you will start with the character 0.
      Next you will add every Nth character of the string to the new string.
 
-     Return the new string.
-
      Tip: If N is 3, use char 0, 3, 6 ... and so on. N is 1 or more.
 
      Example:
