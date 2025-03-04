@@ -20,7 +20,6 @@ public class AlgoChallenge {
             find = false;
             System.out.println("String dose not contain e" + target);
         }
-        
         return null;
     }
      /* Problem 2
