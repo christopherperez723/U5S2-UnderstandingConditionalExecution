@@ -4,7 +4,6 @@ public class TernaryOperatorExample {
 
     public static String tern(){
         String response = "";
-
         String s1 = "Hello";
         String s2 = "Goodbye";
         String answer = s1.equals(s2) ? "Yes" : "No";
